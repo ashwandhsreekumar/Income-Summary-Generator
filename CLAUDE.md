@@ -6,6 +6,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository manages income summary generation for Excel Group of Schools using data exported from ZOHO Books. The system processes student contacts, invoices, and payment data to generate comprehensive income summaries. Excel Group of Schools consists of Excel Central School, Excel Global School and Excel Pathway School. Data for Excel Pathway School will be entered shortly.
 
+## Project Structure
+
+```
+Income Summary Generator/
+├── CLAUDE.md              # Project guidance for Claude Code
+├── README.md              # User documentation
+├── data/
+│   ├── input/            # Input CSV files from ZOHO Books
+│   │   ├── student_contacts.csv
+│   │   ├── student_invoices.csv
+│   │   └── student_payment.csv
+│   ├── reference/        # Reference data
+│   │   └── fee_items.csv
+│   ├── templates/        # Output templates
+│   │   └── income_summary-template.csv
+│   └── output/           # Generated reports
+├── src/                  # Source code
+├── logs/                 # Application logs
+└── dist/                 # Compiled executables
+```
+
 ## Key Data Files
 
 1. **student_contacts.csv** - Student and parent contact information including:
