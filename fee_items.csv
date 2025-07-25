@@ -1,0 +1,282 @@
+No,Item Name,SKU,Description,Rate,School,Grade,CF.Fee Category
+1,EGS Pr.KG - Initial Academic Fee - 2025-2026,25G-PKG-IAF,Initial Academic Fee,INR 25000.00,Excel Global School,Pre-KG,Initial Fee
+2,EGS Pr.KG - Term I Fee (June) - 2025-2026,25G-PKG-T1,Term I Fee (June),INR 14000.00,Excel Global School,Pre-KG,Term Fee
+3,EGS Pr.KG - Term II Fee (Sept) - 2025-2026,25G-PKG-T2,Term II Fee (Sept),INR 14000.00,Excel Global School,Pre-KG,Term Fee
+4,EGS Pr.KG - Term III Fee (Jan) - 2025-2026,25G-PKG-T3,Term III Fee (Jan),INR 12000.00,Excel Global School,Pre-KG,Term Fee
+5,EGS LKG - Initial Academic Fee - 2025-2026,25G-LKG-IAF,Initial Academic Fee,INR 25000.00,Excel Global School,LKG,Initial Fee
+6,EGS LKG - Term I Fee (June) - 2025-2026,25G-LKG-T1,Term I Fee (June),INR 15000.00,Excel Global School,LKG,Term Fee
+7,EGS LKG - Term II Fee (Sept) - 2025-2026,25G-LKG-T2,Term II Fee (Sept),INR 15000.00,Excel Global School,LKG,Term Fee
+8,EGS LKG - Term III Fee (Jan) - 2025-2026,25G-LKG-T3,Term III Fee (Jan),INR 15000.00,Excel Global School,LKG,Term Fee
+9,EGS UKG - Initial Academic Fee - 2025-2026,25G-UKG-IAF,Initial Academic Fee,INR 25000.00,Excel Global School,UKG,Initial Fee
+10,EGS UKG - Term I Fee (June) - 2025-2026,25G-UKG-T1,Term I Fee (June),INR 15000.00,Excel Global School,UKG,Term Fee
+11,EGS UKG - Term II Fee (Sept) - 2025-2026,25G-UKG-T2,Term II Fee (Sept),INR 15000.00,Excel Global School,UKG,Term Fee
+12,EGS UKG - Term III Fee (Jan) - 2025-2026,25G-UKG-T3,Term III Fee (Jan),INR 15000.00,Excel Global School,UKG,Term Fee
+13,EGS 01 - Initial Academic Fee - 2025-2026,25G-01-IAF,Initial Academic Fee,INR 30000.00,Excel Global School,Grade 01,Initial Fee
+14,EGS 01 - Term I Fee (June) - 2025-2026,25G-01-T1,Term I Fee (June),INR 17000.00,Excel Global School,Grade 01,Term Fee
+15,EGS 01 - Term II Fee (Sept) - 2025-2026,25G-01-T2,Term II Fee (Sept),INR 17000.00,Excel Global School,Grade 01,Term Fee
+16,EGS 01 - Term III Fee (Jan) - 2025-2026,25G-01-T3,Term III Fee (Jan),INR 16000.00,Excel Global School,Grade 01,Term Fee
+17,EGS 02 - Initial Academic Fee - 2025-2026,25G-02-IAF,Initial Academic Fee,INR 30000.00,Excel Global School,Grade 02,Initial Fee
+18,EGS 02 - Term I Fee (June) - 2025-2026,25G-02-T1,Term I Fee (June),INR 17000.00,Excel Global School,Grade 02,Term Fee
+19,EGS 02 - Term II Fee (Sept) - 2025-2026,25G-02-T2,Term II Fee (Sept),INR 17000.00,Excel Global School,Grade 02,Term Fee
+20,EGS 02 - Term III Fee (Jan) - 2025-2026,25G-02-T3,Term III Fee (Jan),INR 16000.00,Excel Global School,Grade 02,Term Fee
+21,EGS 03 - Initial Academic Fee - 2025-2026,25G-03-IAF,Initial Academic Fee,INR 30000.00,Excel Global School,Grade 03,Initial Fee
+22,EGS 03 - Term I Fee (June) - 2025-2026,25G-03-T1,Term I Fee (June),INR 19000.00,Excel Global School,Grade 03,Term Fee
+23,EGS 03 - Term II Fee (Sept) - 2025-2026,25G-03-T2,Term II Fee (Sept),INR 19000.00,Excel Global School,Grade 03,Term Fee
+24,EGS 03 - Term III Fee (Jan) - 2025-2026,25G-03-T3,Term III Fee (Jan),INR 18000.00,Excel Global School,Grade 03,Term Fee
+25,EGS 04 - Initial Academic Fee - 2025-2026,25G-04-IAF,Initial Academic Fee,INR 30000.00,Excel Global School,Grade 04,Initial Fee
+26,EGS 04 - Term I Fee (June) - 2025-2026,25G-04-T1,Term I Fee (June),INR 19000.00,Excel Global School,Grade 04,Term Fee
+27,EGS 04 - Term II Fee (Sept) - 2025-2026,25G-04-T2,Term II Fee (Sept),INR 19000.00,Excel Global School,Grade 04,Term Fee
+28,EGS 04 - Term III Fee (Jan) - 2025-2026,25G-04-T3,Term III Fee (Jan),INR 18000.00,Excel Global School,Grade 04,Term Fee
+29,EGS 05 - Initial Academic Fee - 2025-2026,25G-05-IAF,Initial Academic Fee,INR 30000.00,Excel Global School,Grade 05,Initial Fee
+30,EGS 05 - Term I Fee (June) - 2025-2026,25G-05-T1,Term I Fee (June),INR 20000.00,Excel Global School,Grade 05,Term Fee
+31,EGS 05 - Term II Fee (Sept) - 2025-2026,25G-05-T2,Term II Fee (Sept),INR 20000.00,Excel Global School,Grade 05,Term Fee
+32,EGS 05 - Term III Fee (Jan) - 2025-2026,25G-05-T3,Term III Fee (Jan),INR 21000.00,Excel Global School,Grade 05,Term Fee
+33,EGS 06 - Initial Academic Fee - 2025-2026,25G-06-IAF,Initial Academic Fee,INR 32000.00,Excel Global School,Grade 06,Initial Fee
+34,EGS 06 - Term I Fee (June) - 2025-2026,25G-06-T1,Term I Fee (June),INR 20000.00,Excel Global School,Grade 06,Term Fee
+35,EGS 06 - Term II Fee (Sept) - 2025-2026,25G-06-T2,Term II Fee (Sept),INR 20000.00,Excel Global School,Grade 06,Term Fee
+36,EGS 06 - Term III Fee (Jan) - 2025-2026,25G-06-T3,Term III Fee (Jan),INR 20000.00,Excel Global School,Grade 06,Term Fee
+37,EGS 07 - Initial Academic Fee - 2025-2026,25G-07-IAF,Initial Academic Fee,INR 32000.00,Excel Global School,Grade 07,Initial Fee
+38,EGS 07 - Term I Fee (June) - 2025-2026,25G-07-T1,Term I Fee (June),INR 22000.00,Excel Global School,Grade 07,Term Fee
+39,EGS 07 - Term II Fee (Sept) - 2025-2026,25G-07-T2,Term II Fee (Sept),INR 22000.00,Excel Global School,Grade 07,Term Fee
+40,EGS 07 - Term III Fee (Jan) - 2025-2026,25G-07-T3,Term III Fee (Jan),INR 21000.00,Excel Global School,Grade 07,Term Fee
+41,EGS 08 - Initial Academic Fee - 2025-2026,25G-08-IAF,Initial Academic Fee,INR 33000.00,Excel Global School,Grade 08,Initial Fee
+42,EGS 08 - Term I Fee (June) - 2025-2026,25G-08-T1,Term I Fee (June),INR 22000.00,Excel Global School,Grade 08,Term Fee
+43,EGS 08 - Term II Fee (Sept) - 2025-2026,25G-08-T2,Term II Fee (Sept),INR 22000.00,Excel Global School,Grade 08,Term Fee
+44,EGS 08 - Term III Fee (Jan) - 2025-2026,25G-08-T3,Term III Fee (Jan),INR 20000.00,Excel Global School,Grade 08,Term Fee
+45,EGS 09 - Initial Academic Fee - 2025-2026,25G-09-IAF,Initial Academic Fee,INR 33000.00,Excel Global School,Grade 09,Initial Fee
+46,EGS 09 - Term I Fee (June) - 2025-2026,25G-09-T1,Term I Fee (June),INR 24000.00,Excel Global School,Grade 09,Term Fee
+47,EGS 09 - Term II Fee (Sept) - 2025-2026,25G-09-T2,Term II Fee (Sept),INR 24000.00,Excel Global School,Grade 09,Term Fee
+48,EGS 09 - Term III Fee (Jan) - 2025-2026,25G-09-T3,Term III Fee (Jan),INR 24000.00,Excel Global School,Grade 09,Term Fee
+49,EGS 10 - Initial Academic Fee - 2025-2026,25G-10-IAF,Initial Academic Fee,INR 33000.00,Excel Global School,Grade 10,Initial Fee
+50,EGS 10 - Term I Fee (June) - 2025-2026,25G-10-T1,Term I Fee (June),INR 24000.00,Excel Global School,Grade 10,Term Fee
+51,EGS 10 - Term II Fee (Sept) - 2025-2026,25G-10-T2,Term II Fee (Sept),INR 24000.00,Excel Global School,Grade 10,Term Fee
+52,EGS 10 - Term III Fee (Jan) - 2025-2026,25G-10-T3,Term III Fee (Jan),INR 24000.00,Excel Global School,Grade 10,Term Fee
+53,EGS 11 - Initial Academic Fee - 2025-2026,25G-11-IAF,Initial Academic Fee,INR 35000.00,Excel Global School,Grade 11,Initial Fee
+54,EGS 11 - Term I Fee (June) - 2025-2026,25G-11-T1,Term I Fee (June),INR 40000.00,Excel Global School,Grade 11,Term Fee
+55,EGS 11 - Term II Fee (Sept) - 2025-2026,25G-11-T2,Term II Fee (Sept),INR 40000.00,Excel Global School,Grade 11,Term Fee
+56,EGS 11 - Term III Fee (Jan) - 2025-2026,25G-11-T3,Term III Fee (Jan),INR 40000.00,Excel Global School,Grade 11,Term Fee
+57,EGS 12 - Initial Academic Fee - 2025-2026,25G-12-IAF,Initial Academic Fee,INR 35000.00,Excel Global School,Grade 12,Initial Fee
+58,EGS 12 - Term I Fee (June) - 2025-2026,25G-12-T1,Term I Fee (June),INR 40000.00,Excel Global School,Grade 12,Term Fee
+59,EGS 12 - Term II Fee (Sept) - 2025-2026,25G-12-T2,Term II Fee (Sept),INR 40000.00,Excel Global School,Grade 12,Term Fee
+60,EGS 12 - Term III Fee (Jan) - 2025-2026,25G-12-T3,Term III Fee (Jan),INR 40000.00,Excel Global School,Grade 12,Term Fee
+61,ECS Pr.KG - Initial Academic Fee - 2025-2026,25C-PKG-IAF,Initial Academic Fee,INR 25000.00,Excel Central School,Pre-KG,Initial Fee
+62,ECS LKG - Initial Academic Fee - 2025-2026,25C-LKG-IAF,Initial Academic Fee,INR 25000.00,Excel Central School,LKG,Initial Fee
+63,ECS UKG - Initial Academic Fee - 2025-2026,25C-UKG-IAF,Initial Academic Fee,INR 25000.00,Excel Central School,UKG,Initial Fee
+64,ECS Grade I - Initial Academic Fee - 2025-2026,25C-01-IAF,Initial Academic Fee,INR 30000.00,Excel Central School,Grade 01,Initial Fee
+65,ECS Grade II - Initial Academic Fee - 2025-2026,25C-02-IAF,Initial Academic Fee,INR 30000.00,Excel Central School,Grade 02,Initial Fee
+66,ECS Grade III - Initial Academic Fee - 2025-2026,25C-03-IAF,Initial Academic Fee,INR 30000.00,Excel Central School,Grade 03,Initial Fee
+67,ECS Grade IV - Initial Academic Fee - 2025-2026,25C-04-IAF,Initial Academic Fee,INR 30000.00,Excel Central School,Grade 04,Initial Fee
+68,ECS Grade V - Initial Academic Fee - 2025-2026,25C-05-IAF,Initial Academic Fee,INR 30000.00,Excel Central School,Grade 05,Initial Fee
+69,ECS Grade VI - Initial Academic Fee - 2025-2026,25C-06-IAF,Initial Academic Fee,INR 32000.00,Excel Central School,Grade 06,Initial Fee
+70,ECS Grade VII - Initial Academic Fee - 2025-2026,25C-07-IAF,Initial Academic Fee,INR 32000.00,Excel Central School,Grade 07,Initial Fee
+71,ECS Grade VIII - Initial Academic Fee - 2025-2026,25C-08-IAF,Initial Academic Fee,INR 33000.00,Excel Central School,Grade 08,Initial Fee
+72,ECS Grade IX - Initial Academic Fee - 2025-2026,25C-09-IAF,Initial Academic Fee,INR 33000.00,Excel Central School,Grade 09,Initial Fee
+73,ECS Grade X - Initial Academic Fee - 2025-2026,25C-10-IAF,Initial Academic Fee,INR 34000.00,Excel Central School,Grade 10,Initial Fee
+74,ECS Grade XI - Initial Academic Fee - 2025-2026,25C-11-IAF,Initial Academic Fee,INR 75000.00,Excel Central School,Grade 11,Initial Fee
+75,ECS Grade XI Commerce - Initial Academic Fee - 2025-2026,25C-11C-IAF,Initial Academic Fee,INR 50000.00,Excel Central School,Grade 11,Initial Fee
+76,ECS Grade XII - Initial Academic Fee - 2025-2026,25C-12-IAF,Initial Academic Fee,INR 75000.00,Excel Central School,Grade 12,Initial Fee
+77,ECS Grade XII Commerce - Initial Academic Fee - 2025-2026,25C-12C-IAF,Initial Academic Fee,INR 50000.00,Excel Central School,Grade 12,Initial Fee
+78,ECS Pr.KG - June Monthly Fee - 2025-2026,25C-PKG-JUN,June Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+79,ECS LKG - June Monthly Fee - 2025-2026,25C-LKG-JUN,June Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+80,ECS UKG - June Monthly Fee - 2025-2026,25C-UKG-JUN,June Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+81,ECS Grade I - June Monthly Fee - 2025-2026,25C-01-JUN,June Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+82,ECS Grade II - June Monthly Fee - 2025-2026,25C-02-JUN,June Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+83,ECS Grade III - June Monthly Fee - 2025-2026,25C-03-JUN,June Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+84,ECS Grade IV - June Monthly Fee - 2025-2026,25C-04-JUN,June Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+85,ECS Grade V - June Monthly Fee - 2025-2026,25C-05-JUN,June Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+86,ECS Grade VI - June Monthly Fee - 2025-2026,25C-06-JUN,June Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+87,ECS Grade VII - June Monthly Fee - 2025-2026,25C-07-JUN,June Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+88,ECS Grade VIII - June Monthly Fee - 2025-2026,25C-08-JUN,June Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+89,ECS Grade IX - June Monthly Fee - 2025-2026,25C-09-JUN,June Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+90,ECS Grade X - June Monthly Fee - 2025-2026,25C-10-JUN,June Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+91,ECS Grade XI - June Monthly Fee - 2025-2026,25C-11-JUN,June Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+92,ECS Grade XI Commerce - June Monthly Fee - 2025-2026,25C-11C-JUN,June Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+93,ECS Grade XII - June Monthly Fee - 2025-2026,25C-12-JUN,June Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+94,ECS Grade XII Commerce - June Monthly Fee - 2025-2026,25C-12C-JUN,June Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+95,ECS Pr.KG - July Monthly Fee - 2025-2026,25C-PKG-JUL,July Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+96,ECS LKG - July Monthly Fee - 2025-2026,25C-LKG-JUL,July Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+97,ECS UKG - July Monthly Fee - 2025-2026,25C-UKG-JUL,July Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+98,ECS Grade I - July Monthly Fee - 2025-2026,25C-01-JUL,July Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+99,ECS Grade II - July Monthly Fee - 2025-2026,25C-02-JUL,July Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+100,ECS Grade III - July Monthly Fee - 2025-2026,25C-03-JUL,July Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+101,ECS Grade IV - July Monthly Fee - 2025-2026,25C-04-JUL,July Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+102,ECS Grade V - July Monthly Fee - 2025-2026,25C-05-JUL,July Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+103,ECS Grade VI - July Monthly Fee - 2025-2026,25C-06-JUL,July Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+104,ECS Grade VII - July Monthly Fee - 2025-2026,25C-07-JUL,July Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+105,ECS Grade VIII - July Monthly Fee - 2025-2026,25C-08-JUL,July Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+106,ECS Grade IX - July Monthly Fee - 2025-2026,25C-09-JUL,July Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+107,ECS Grade X - July Monthly Fee - 2025-2026,25C-10-JUL,July Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+108,ECS Grade XI - July Monthly Fee - 2025-2026,25C-11-JUL,July Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+109,ECS Grade XI Commerce - July Monthly Fee - 2025-2026,25C-11C-JUL,July Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+110,ECS Grade XII - July Monthly Fee - 2025-2026,25C-12-JUL,July Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+111,ECS Grade XII Commerce - July Monthly Fee - 2025-2026,25C-12C-JUL,July Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+112,ECS Pr.KG - August Monthly Fee - 2025-2026,25C-PKG-AUG,August Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+113,ECS LKG - August Monthly Fee - 2025-2026,25C-LKG-AUG,August Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+114,ECS UKG - August Monthly Fee - 2025-2026,25C-UKG-AUG,August Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+115,ECS Grade I - August Monthly Fee - 2025-2026,25C-01-AUG,August Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+116,ECS Grade II - August Monthly Fee - 2025-2026,25C-02-AUG,August Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+117,ECS Grade III - August Monthly Fee - 2025-2026,25C-03-AUG,August Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+118,ECS Grade IV - August Monthly Fee - 2025-2026,25C-04-AUG,August Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+119,ECS Grade V - August Monthly Fee - 2025-2026,25C-05-AUG,August Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+120,ECS Grade VI - August Monthly Fee - 2025-2026,25C-06-AUG,August Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+121,ECS Grade VII - August Monthly Fee - 2025-2026,25C-07-AUG,August Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+122,ECS Grade VIII - August Monthly Fee - 2025-2026,25C-08-AUG,August Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+123,ECS Grade IX - August Monthly Fee - 2025-2026,25C-09-AUG,August Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+124,ECS Grade X - August Monthly Fee - 2025-2026,25C-10-AUG,August Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+125,ECS Grade XI - August Monthly Fee - 2025-2026,25C-11-AUG,August Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+126,ECS Grade XI Commerce - August Monthly Fee - 2025-2026,25C-11C-AUG,August Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+127,ECS Grade XII - August Monthly Fee - 2025-2026,25C-12-AUG,August Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+128,ECS Grade XII Commerce - August Monthly Fee - 2025-2026,25C-12C-AUG,August Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+129,ECS Pr.KG - September Monthly Fee - 2025-2026,25C-PKG-SEP,September Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+130,ECS LKG - September Monthly Fee - 2025-2026,25C-LKG-SEP,September Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+131,ECS UKG - September Monthly Fee - 2025-2026,25C-UKG-SEP,September Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+132,ECS Grade I - September Monthly Fee - 2025-2026,25C-01-SEP,September Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+133,ECS Grade II - September Monthly Fee - 2025-2026,25C-02-SEP,September Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+134,ECS Grade III - September Monthly Fee - 2025-2026,25C-03-SEP,September Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+135,ECS Grade IV - September Monthly Fee - 2025-2026,25C-04-SEP,September Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+136,ECS Grade V - September Monthly Fee - 2025-2026,25C-05-SEP,September Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+137,ECS Grade VI - September Monthly Fee - 2025-2026,25C-06-SEP,September Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+138,ECS Grade VII - September Monthly Fee - 2025-2026,25C-07-SEP,September Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+139,ECS Grade VIII - September Monthly Fee - 2025-2026,25C-08-SEP,September Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+140,ECS Grade IX - September Monthly Fee - 2025-2026,25C-09-SEP,September Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+141,ECS Grade X - September Monthly Fee - 2025-2026,25C-10-SEP,September Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+142,ECS Grade XI - September Monthly Fee - 2025-2026,25C-11-SEP,September Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+143,ECS Grade XI Commerce - September Monthly Fee - 2025-2026,25C-11C-SEP,September Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+144,ECS Grade XII - September Monthly Fee - 2025-2026,25C-12-SEP,September Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+145,ECS Grade XII Commerce - September Monthly Fee - 2025-2026,25C-12C-SEP,September Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+146,ECS Pr.KG - October Monthly Fee - 2025-2026,25C-PKG-OCT,October Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+147,ECS LKG - October Monthly Fee - 2025-2026,25C-LKG-OCT,October Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+148,ECS UKG - October Monthly Fee - 2025-2026,25C-UKG-OCT,October Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+149,ECS Grade I - October Monthly Fee - 2025-2026,25C-01-OCT,October Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+150,ECS Grade II - October Monthly Fee - 2025-2026,25C-02-OCT,October Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+151,ECS Grade III - October Monthly Fee - 2025-2026,25C-03-OCT,October Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+152,ECS Grade IV - October Monthly Fee - 2025-2026,25C-04-OCT,October Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+153,ECS Grade V - October Monthly Fee - 2025-2026,25C-05-OCT,October Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+154,ECS Grade VI - October Monthly Fee - 2025-2026,25C-06-OCT,October Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+155,ECS Grade VII - October Monthly Fee - 2025-2026,25C-07-OCT,October Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+156,ECS Grade VIII - October Monthly Fee - 2025-2026,25C-08-OCT,October Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+157,ECS Grade IX - October Monthly Fee - 2025-2026,25C-09-OCT,October Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+158,ECS Grade X - October Monthly Fee - 2025-2026,25C-10-OCT,October Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+159,ECS Grade XI - October Monthly Fee - 2025-2026,25C-11-OCT,October Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+160,ECS Grade XI Commerce - October Monthly Fee - 2025-2026,25C-11C-OCT,October Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+161,ECS Grade XII - October Monthly Fee - 2025-2026,25C-12-OCT,October Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+162,ECS Grade XII Commerce - October Monthly Fee - 2025-2026,25C-12C-OCT,October Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+163,ECS Pr.KG - November Monthly Fee - 2025-2026,25C-PKG-NOV,November Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+164,ECS LKG - November Monthly Fee - 2025-2026,25C-LKG-NOV,November Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+165,ECS UKG - November Monthly Fee - 2025-2026,25C-UKG-NOV,November Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+166,ECS Grade I - November Monthly Fee - 2025-2026,25C-01-NOV,November Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+167,ECS Grade II - November Monthly Fee - 2025-2026,25C-02-NOV,November Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+168,ECS Grade III - November Monthly Fee - 2025-2026,25C-03-NOV,November Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+169,ECS Grade IV - November Monthly Fee - 2025-2026,25C-04-NOV,November Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+170,ECS Grade V - November Monthly Fee - 2025-2026,25C-05-NOV,November Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+171,ECS Grade VI - November Monthly Fee - 2025-2026,25C-06-NOV,November Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+172,ECS Grade VII - November Monthly Fee - 2025-2026,25C-07-NOV,November Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+173,ECS Grade VIII - November Monthly Fee - 2025-2026,25C-08-NOV,November Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+174,ECS Grade IX - November Monthly Fee - 2025-2026,25C-09-NOV,November Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+175,ECS Grade X - November Monthly Fee - 2025-2026,25C-10-NOV,November Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+176,ECS Grade XI - November Monthly Fee - 2025-2026,25C-11-NOV,November Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+177,ECS Grade XI Commerce - November Monthly Fee - 2025-2026,25C-11C-NOV,November Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+178,ECS Grade XII - November Monthly Fee - 2025-2026,25C-12-NOV,November Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+179,ECS Grade XII Commerce - November Monthly Fee - 2025-2026,25C-12C-NOV,November Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+180,ECS Pr.KG - December Monthly Fee - 2025-2026,25C-PKG-DEC,December Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+181,ECS LKG - December Monthly Fee - 2025-2026,25C-LKG-DEC,December Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+182,ECS UKG - December Monthly Fee - 2025-2026,25C-UKG-DEC,December Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+183,ECS Grade I - December Monthly Fee - 2025-2026,25C-01-DEC,December Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+184,ECS Grade II - December Monthly Fee - 2025-2026,25C-02-DEC,December Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+185,ECS Grade III - December Monthly Fee - 2025-2026,25C-03-DEC,December Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+186,ECS Grade IV - December Monthly Fee - 2025-2026,25C-04-DEC,December Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+187,ECS Grade V - December Monthly Fee - 2025-2026,25C-05-DEC,December Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+188,ECS Grade VI - December Monthly Fee - 2025-2026,25C-06-DEC,December Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+189,ECS Grade VII - December Monthly Fee - 2025-2026,25C-07-DEC,December Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+190,ECS Grade VIII - December Monthly Fee - 2025-2026,25C-08-DEC,December Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+191,ECS Grade IX - December Monthly Fee - 2025-2026,25C-09-DEC,December Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+192,ECS Grade X - December Monthly Fee - 2025-2026,25C-10-DEC,December Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+193,ECS Grade XI - December Monthly Fee - 2025-2026,25C-11-DEC,December Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+194,ECS Grade XI Commerce - December Monthly Fee - 2025-2026,25C-11C-DEC,December Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+195,ECS Grade XII - December Monthly Fee - 2025-2026,25C-12-DEC,December Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+196,ECS Grade XII Commerce - December Monthly Fee - 2025-2026,25C-12C-DEC,December Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+197,ECS Pr.KG - January Monthly Fee - 2025-2026,25C-PKG-JAN,January Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+198,ECS LKG - January Monthly Fee - 2025-2026,25C-LKG-JAN,January Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+199,ECS UKG - January Monthly Fee - 2025-2026,25C-UKG-JAN,January Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+200,ECS Grade I - January Monthly Fee - 2025-2026,25C-01-JAN,January Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+201,ECS Grade II - January Monthly Fee - 2025-2026,25C-02-JAN,January Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+202,ECS Grade III - January Monthly Fee - 2025-2026,25C-03-JAN,January Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+203,ECS Grade IV - January Monthly Fee - 2025-2026,25C-04-JAN,January Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+204,ECS Grade V - January Monthly Fee - 2025-2026,25C-05-JAN,January Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+205,ECS Grade VI - January Monthly Fee - 2025-2026,25C-06-JAN,January Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+206,ECS Grade VII - January Monthly Fee - 2025-2026,25C-07-JAN,January Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+207,ECS Grade VIII - January Monthly Fee - 2025-2026,25C-08-JAN,January Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+208,ECS Grade IX - January Monthly Fee - 2025-2026,25C-09-JAN,January Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+209,ECS Grade X - January Monthly Fee - 2025-2026,25C-10-JAN,January Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+210,ECS Grade XI - January Monthly Fee - 2025-2026,25C-11-JAN,January Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+211,ECS Grade XI Commerce - January Monthly Fee - 2025-2026,25C-11C-JAN,January Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+212,ECS Grade XII - January Monthly Fee - 2025-2026,25C-12-JAN,January Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+213,ECS Grade XII Commerce - January Monthly Fee - 2025-2026,25C-12C-JAN,January Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+214,ECS Pr.KG - February Monthly Fee - 2025-2026,25C-PKG-FEB,February Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+215,ECS LKG - February Monthly Fee - 2025-2026,25C-LKG-FEB,February Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+216,ECS UKG - February Monthly Fee - 2025-2026,25C-UKG-FEB,February Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+217,ECS Grade I - February Monthly Fee - 2025-2026,25C-01-FEB,February Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+218,ECS Grade II - February Monthly Fee - 2025-2026,25C-02-FEB,February Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+219,ECS Grade III - February Monthly Fee - 2025-2026,25C-03-FEB,February Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+220,ECS Grade IV - February Monthly Fee - 2025-2026,25C-04-FEB,February Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+221,ECS Grade V - February Monthly Fee - 2025-2026,25C-05-FEB,February Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+222,ECS Grade VI - February Monthly Fee - 2025-2026,25C-06-FEB,February Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+223,ECS Grade VII - February Monthly Fee - 2025-2026,25C-07-FEB,February Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+224,ECS Grade VIII - February Monthly Fee - 2025-2026,25C-08-FEB,February Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+225,ECS Grade IX - February Monthly Fee - 2025-2026,25C-09-FEB,February Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+226,ECS Grade X - February Monthly Fee - 2025-2026,25C-10-FEB,February Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+227,ECS Grade XI - February Monthly Fee - 2025-2026,25C-11-FEB,February Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+228,ECS Grade XI Commerce - February Monthly Fee - 2025-2026,25C-11C-FEB,February Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+229,ECS Grade XII - February Monthly Fee - 2025-2026,25C-12-FEB,February Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+230,ECS Grade XII Commerce - February Monthly Fee - 2025-2026,25C-12C-FEB,February Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+231,ECS Pr.KG - March Monthly Fee - 2025-2026,25C-PKG-MAR,March Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+232,ECS LKG - March Monthly Fee - 2025-2026,25C-LKG-MAR,March Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+233,ECS UKG - March Monthly Fee - 2025-2026,25C-UKG-MAR,March Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+234,ECS Grade I - March Monthly Fee - 2025-2026,25C-01-MAR,March Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+235,ECS Grade II - March Monthly Fee - 2025-2026,25C-02-MAR,March Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+236,ECS Grade III - March Monthly Fee - 2025-2026,25C-03-MAR,March Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+237,ECS Grade IV - March Monthly Fee - 2025-2026,25C-04-MAR,March Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+238,ECS Grade V - March Monthly Fee - 2025-2026,25C-05-MAR,March Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+239,ECS Grade VI - March Monthly Fee - 2025-2026,25C-06-MAR,March Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+240,ECS Grade VII - March Monthly Fee - 2025-2026,25C-07-MAR,March Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+241,ECS Grade VIII - March Monthly Fee - 2025-2026,25C-08-MAR,March Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+242,ECS Grade IX - March Monthly Fee - 2025-2026,25C-09-MAR,March Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+243,ECS Grade X - March Monthly Fee - 2025-2026,25C-10-MAR,March Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+244,ECS Grade XI - March Monthly Fee - 2025-2026,25C-11-MAR,March Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+245,ECS Grade XI Commerce - March Monthly Fee - 2025-2026,25C-11C-MAR,March Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+246,ECS Grade XII - March Monthly Fee - 2025-2026,25C-12-MAR,March Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+247,ECS Grade XII Commerce - March Monthly Fee - 2025-2026,25C-12C-MAR,March Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+248,ECS Pr.KG - April Monthly Fee - 2025-2026,25C-PKG-APR,April Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+249,ECS LKG - April Monthly Fee - 2025-2026,25C-LKG-APR,April Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+250,ECS UKG - April Monthly Fee - 2025-2026,25C-UKG-APR,April Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+251,ECS Grade I - April Monthly Fee - 2025-2026,25C-01-APR,April Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+252,ECS Grade II - April Monthly Fee - 2025-2026,25C-02-APR,April Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+253,ECS Grade III - April Monthly Fee - 2025-2026,25C-03-APR,April Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+254,ECS Grade IV - April Monthly Fee - 2025-2026,25C-04-APR,April Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+255,ECS Grade V - April Monthly Fee - 2025-2026,25C-05-APR,April Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+256,ECS Grade VI - April Monthly Fee - 2025-2026,25C-06-APR,April Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+257,ECS Grade VII - April Monthly Fee - 2025-2026,25C-07-APR,April Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+258,ECS Grade VIII - April Monthly Fee - 2025-2026,25C-08-APR,April Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+259,ECS Grade IX - April Monthly Fee - 2025-2026,25C-09-APR,April Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+260,ECS Grade X - April Monthly Fee - 2025-2026,25C-10-APR,April Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+261,ECS Grade XI - April Monthly Fee - 2025-2026,25C-11-APR,April Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+262,ECS Grade XI Commerce - April Monthly Fee - 2025-2026,25C-11C-APR,April Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+263,ECS Grade XII - April Monthly Fee - 2025-2026,25C-12-APR,April Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+264,ECS Grade XII Commerce - April Monthly Fee - 2025-2026,25C-12C-APR,April Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+265,ECS Pr.KG - May Monthly Fee - 2025-2026,25C-PKG-MAY,May Monthly Fee,INR 1600.00,Excel Central School,Pre-KG,Monthly Fee
+266,ECS LKG - May Monthly Fee - 2025-2026,25C-LKG-MAY,May Monthly Fee,INR 1600.00,Excel Central School,LKG,Monthly Fee
+267,ECS UKG - May Monthly Fee - 2025-2026,25C-UKG-MAY,May Monthly Fee,INR 1700.00,Excel Central School,UKG,Monthly Fee
+268,ECS Grade I - May Monthly Fee - 2025-2026,25C-01-MAY,May Monthly Fee,INR 1800.00,Excel Central School,Grade 01,Monthly Fee
+269,ECS Grade II - May Monthly Fee - 2025-2026,25C-02-MAY,May Monthly Fee,INR 1900.00,Excel Central School,Grade 02,Monthly Fee
+270,ECS Grade III - May Monthly Fee - 2025-2026,25C-03-MAY,May Monthly Fee,INR 2000.00,Excel Central School,Grade 03,Monthly Fee
+271,ECS Grade IV - May Monthly Fee - 2025-2026,25C-04-MAY,May Monthly Fee,INR 2100.00,Excel Central School,Grade 04,Monthly Fee
+272,ECS Grade V - May Monthly Fee - 2025-2026,25C-05-MAY,May Monthly Fee,INR 2200.00,Excel Central School,Grade 05,Monthly Fee
+273,ECS Grade VI - May Monthly Fee - 2025-2026,25C-06-MAY,May Monthly Fee,INR 2300.00,Excel Central School,Grade 06,Monthly Fee
+274,ECS Grade VII - May Monthly Fee - 2025-2026,25C-07-MAY,May Monthly Fee,INR 2400.00,Excel Central School,Grade 07,Monthly Fee
+275,ECS Grade VIII - May Monthly Fee - 2025-2026,25C-08-MAY,May Monthly Fee,INR 2500.00,Excel Central School,Grade 08,Monthly Fee
+276,ECS Grade IX - May Monthly Fee - 2025-2026,25C-09-MAY,May Monthly Fee,INR 2900.00,Excel Central School,Grade 09,Monthly Fee
+277,ECS Grade X - May Monthly Fee - 2025-2026,25C-10-MAY,May Monthly Fee,INR 3100.00,Excel Central School,Grade 10,Monthly Fee
+278,ECS Grade XI - May Monthly Fee - 2025-2026,25C-11-MAY,May Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+279,ECS Grade XI Commerce - May Monthly Fee - 2025-2026,25C-11C-MAY,May Monthly Fee,INR 4500.00,Excel Central School,Grade 11,Monthly Fee
+280,ECS Grade XII - May Monthly Fee - 2025-2026,25C-12-MAY,May Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
+281,ECS Grade XII Commerce - May Monthly Fee - 2025-2026,25C-12C-MAY,May Monthly Fee,INR 4500.00,Excel Central School,Grade 12,Monthly Fee
