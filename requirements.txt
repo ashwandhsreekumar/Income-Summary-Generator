@@ -6,6 +6,9 @@ openpyxl>=3.1.0  # For Excel file support if needed
 # GUI development
 # tkinter is included with Python, no need to install
 
+# Web interface
+streamlit>=1.29.0
+
 # Date handling (included in standard library)
 # datetime, pathlib, logging are built-in
 
