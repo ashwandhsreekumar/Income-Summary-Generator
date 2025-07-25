@@ -29,6 +29,7 @@ Income Summary Generator/
 
 ## Key Data Files
 
+### Input Files (data/input/)
 1. **student_contacts.csv** - Student and parent contact information including:
    - Student details (name, grade, section, enrollment info)
    - Parent contact information
@@ -46,16 +47,19 @@ Income Summary Generator/
    - Invoice associations
    - Payment modes
    - Key fields: CustomerID, Invoice Number, Amount, Date
+   - Opening Balance: Identified by Invoice Number = "Customer opening balance"
 
-4. **income_summary-template.csv** - Template structure for generating income summaries with columns for:
-   - Grade, Section, School
-   - Opening Balance, Initial Fee, Month, Term/Monthly Fee
-
-5. **fee_items.csv** - Master list of fee items with:
+### Reference Files (data/reference/)
+4. **fee_items.csv** - Master list of fee items with:
    - Item codes (SKU) and descriptions
    - Rates per grade level
-   - Fee categories (Initial Fee, Term Fee)
-   - Grades: Pre-KG, LKG, UKG, Grade 01-12
+   - Fee categories (Initial Fee, Term Fee, Monthly Fee)
+   - Schools: Excel Global School (EGS), Excel Central School (ECS)
+
+### Template Files (data/templates/)
+5. **income_summary-template.csv** - Output template with columns:
+   - Grade, Section, School
+   - Opening Balance, Initial Fee, Month, Term/Monthly Fee
 
 ## Data Architecture
 
@@ -72,7 +76,9 @@ Income Summary Generator/
 
 ### Fee Structure
 - **Initial Academic Fee**: One-time annual fee (varies by grade)
-- **Term Fees**: Three terms per year (June, September, January)
+- **Excel Global School**: Term-based fees (Term I: June, Term II: September, Term III: January)
+- **Excel Central School**: Monthly fees (June through March)
+- **Excel Pathway School**: Term-based pattern (to be implemented)
 - **Discounts**: Applied at entity level, reflected in Item Total calculations
 
 ## Technical Implementation Notes
@@ -91,7 +97,86 @@ Income Summary Generator/
 
 ### Output Format
 Generate summaries matching income_summary-template.csv structure:
-- Group by Grade and Section
-- Calculate Opening Balance from unpaid invoices
-- Separate Initial Fee and Term Fee totals
-- Format currency values consistently
+- Group by Grade, Section, and School
+- Month field based on payment date
+- Opening Balance: From payments with Invoice Number = "Customer opening balance"
+- Initial Fee: Payments allocated to Initial Academic Fee invoices
+- Term/Monthly Fee: Payments allocated to term or monthly fee invoices
+- All amounts as numeric values (no INR prefix)
+
+## Implementation Plan
+
+### Payment Processing Algorithm
+1. **Month Assignment**: Extract month from payment date for all allocations
+2. **Opening Balance**: Payments where Invoice Number = "Customer opening balance"
+3. **Fee Allocation Priority**:
+   - Initial Academic Fee takes priority
+   - Then Term/Monthly fees
+   - Use InvoicePayment ID to track specific allocations
+
+### Section Naming Conventions
+- **Excel Global School**: Blue, Green, Yellow, Red, "-" (single section)
+- **Excel Central School**: A, B, C, D
+- **Excel Pathway School**: TBD (term-based pattern)
+
+### Windows Application Structure
+- GUI with file selectors for input CSVs
+- Month/Year filter for report generation
+- School filter options
+- Progress tracking and error logging
+- Output to data/output/ directory
+
+### Error Handling
+- Log edge cases to logs/summary_log.txt
+- Track missing customer IDs
+- Report unmatched payments
+- Handle data inconsistencies gracefully
+
+## Technical Stack
+
+### Core Libraries
+- **pandas**: Primary data processing and CSV manipulation
+- **numpy**: Numerical operations and data aggregation
+- **datetime**: Date parsing and month extraction
+- **pathlib**: Cross-platform file path handling
+- **logging**: Structured error and audit logging
+
+### GUI Framework
+- **tkinter**: Built-in Python GUI library (no additional dependencies)
+- **tkinter.filedialog**: File selection dialogs
+- **tkinter.ttk**: Modern themed widgets
+
+### Data Processing Architecture
+
+```python
+# Core data structures using pandas
+contacts_df = pd.read_csv('data/input/student_contacts.csv')
+invoices_df = pd.read_csv('data/input/student_invoices.csv')
+payments_df = pd.read_csv('data/input/student_payment.csv')
+fee_items_df = pd.read_csv('data/reference/fee_items.csv')
+
+# Key operations:
+# 1. Merge operations using Customer ID
+# 2. Group by operations for aggregation
+# 3. Pivot tables for summary generation
+# 4. Date parsing for month extraction
+```
+
+### Performance Considerations
+- Use pandas vectorized operations instead of loops
+- Implement chunking for large datasets (>100k records)
+- Use categorical data types for Grade, Section, School columns
+- Memory optimization with appropriate dtypes
+
+### Packaging
+- **PyInstaller**: Create standalone Windows executable
+- Bundle fee_items.csv as embedded resource
+- Include pandas and dependencies in executable
+- Target file size: ~50-100MB
+
+### Development Workflow
+1. Develop core processing logic in Jupyter notebooks for testing
+2. Refactor into modular Python scripts
+3. Create GUI wrapper
+4. Test with sample data
+5. Package as Windows executable

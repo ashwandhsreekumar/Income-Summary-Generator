@@ -1,0 +1,20 @@
+# Core data processing
+pandas>=2.1.0
+numpy>=1.26.0
+openpyxl>=3.1.0  # For Excel file support if needed
+
+# GUI development
+# tkinter is included with Python, no need to install
+
+# Date handling (included in standard library)
+# datetime, pathlib, logging are built-in
+
+# For development and testing (optional)
+# jupyter>=1.0.0
+# ipython>=8.14.0
+
+# For creating Windows executable
+pyinstaller>=6.0.0
+
+# Additional utilities
+python-dateutil>=2.8.0  # Advanced date parsing
