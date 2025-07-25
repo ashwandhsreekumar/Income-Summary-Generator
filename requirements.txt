@@ -8,6 +8,7 @@ openpyxl>=3.1.0  # For Excel file support if needed
 
 # Web interface
 streamlit>=1.29.0
+matplotlib>=3.7.0
 
 # Date handling (included in standard library)
 # datetime, pathlib, logging are built-in
