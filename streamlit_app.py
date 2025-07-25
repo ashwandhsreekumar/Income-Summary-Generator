@@ -324,16 +324,8 @@ if st.session_state.summary_generated and 'summary_df' in st.session_state:
                 
                 with col2:
                     # Create bar chart
-                    school_chart_data = school_summary.reset_index()
-                    school_chart_data = school_chart_data.melt(
-                        id_vars=['School'],
-                        value_vars=['Opening Balance', 'Initial Fee', 'Term / Monthly Fee'],
-                        var_name='Fee Type',
-                        value_name='Amount'
-                    )
-                    
                     st.bar_chart(
-                        data=school_chart_data.pivot(index='School', columns='Fee Type', values='Amount'),
+                        data=school_summary[['Opening Balance', 'Initial Fee', 'Term / Monthly Fee']],
                         use_container_width=True,
                         height=400
                     )
@@ -357,122 +349,143 @@ if st.session_state.summary_generated and 'summary_df' in st.session_state:
             
             with col2:
                 # Create bar chart for grades
-                grade_chart_data = grade_summary.reset_index()
-                grade_chart_data = grade_chart_data.melt(
-                    id_vars=['Grade'],
-                    value_vars=['Opening Balance', 'Initial Fee', 'Term / Monthly Fee'],
-                    var_name='Fee Type',
-                    value_name='Amount'
-                )
-                
-                # Sort grades properly
-                grade_order = ['Pre-KG', 'LKG', 'UKG'] + [f'Grade {i:02d}' for i in range(1, 13)]
-                grade_chart_data['Grade'] = pd.Categorical(
-                    grade_chart_data['Grade'], 
-                    categories=[g for g in grade_order if g in grade_chart_data['Grade'].unique()],
-                    ordered=True
-                )
-                grade_chart_data = grade_chart_data.sort_values('Grade')
-                
-                st.bar_chart(
-                    data=grade_chart_data.pivot(index='Grade', columns='Fee Type', values='Amount'),
-                    use_container_width=True,
-                    height=400
-                )
+                if not grade_summary.empty:
+                    # Use Streamlit's native bar chart with the summary data directly
+                    st.bar_chart(
+                        data=grade_summary[['Opening Balance', 'Initial Fee', 'Term / Monthly Fee']],
+                        use_container_width=True,
+                        height=400
+                    )
+                else:
+                    st.info("No grade data to display")
         
         with tab3:
-            # Monthly trends if multiple months
-            if 'Month' in summary_df.columns and len(summary_df['Month'].unique()) > 1:
-                st.subheader("Monthly Collection Trends")
-                
+            # Monthly trends
+            st.subheader("Monthly Collection Summary")
+            
+            if 'Month' in summary_df.columns:
                 monthly_summary = summary_df.groupby('Month').agg({
                     'Opening Balance': 'sum',
                     'Initial Fee': 'sum',
                     'Term / Monthly Fee': 'sum'
                 }).round(2)
                 
-                # Create line chart
+                # Add total column
                 monthly_summary['Total Collection'] = monthly_summary.sum(axis=1)
                 
-                st.line_chart(
-                    data=monthly_summary[['Opening Balance', 'Initial Fee', 'Term / Monthly Fee', 'Total Collection']],
-                    use_container_width=True,
-                    height=400
-                )
-                
-                # Show monthly breakdown
+                # Show data table
                 st.dataframe(monthly_summary, use_container_width=True)
+                
+                # Show chart only if multiple months
+                if len(summary_df['Month'].unique()) > 1:
+                    st.line_chart(
+                        data=monthly_summary[['Opening Balance', 'Initial Fee', 'Term / Monthly Fee', 'Total Collection']],
+                        use_container_width=True,
+                        height=400
+                    )
+                else:
+                    # For single month, show a bar chart instead
+                    st.bar_chart(
+                        data=monthly_summary[['Opening Balance', 'Initial Fee', 'Term / Monthly Fee']],
+                        use_container_width=True,
+                        height=400
+                    )
             else:
-                st.info("📌 Single month selected - no trend analysis available")
+                st.info("📌 No monthly data available")
         
         with tab4:
             # Distribution charts
-            st.subheader("Fee Distribution")
+            st.subheader("Fee Distribution Analysis")
             
+            # Summary statistics
+            total_opening = summary_df['Opening Balance'].sum()
+            total_initial = summary_df['Initial Fee'].sum()
+            total_term = summary_df['Term / Monthly Fee'].sum()
+            grand_total = total_opening + total_initial + total_term
+            
+            # Display metrics
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Opening Balance", f"₹{total_opening:,.0f}")
+            with col2:
+                st.metric("Initial Fee", f"₹{total_initial:,.0f}")
+            with col3:
+                st.metric("Term/Monthly Fee", f"₹{total_term:,.0f}")
+            with col4:
+                st.metric("Grand Total", f"₹{grand_total:,.0f}")
+            
+            # Charts
             col1, col2 = st.columns(2)
             
             with col1:
-                # Pie chart for total fee distribution
-                fee_totals = {
-                    'Opening Balance': summary_df['Opening Balance'].sum(),
-                    'Initial Fee': summary_df['Initial Fee'].sum(),
-                    'Term/Monthly Fee': summary_df['Term / Monthly Fee'].sum()
-                }
+                st.subheader("Fee Type Distribution")
                 
-                # Create pie chart using matplotlib
-                
-                fig, ax = plt.subplots(figsize=(8, 6))
-                colors = ['#FF6B6B', '#4ECDC4', '#45B7D1']
+                # Create a simple dataframe for pie chart
+                fee_data = pd.DataFrame({
+                    'Fee Type': ['Opening Balance', 'Initial Fee', 'Term/Monthly Fee'],
+                    'Amount': [total_opening, total_initial, total_term]
+                })
                 
                 # Filter out zero values
-                non_zero_fees = {k: v for k, v in fee_totals.items() if v > 0}
+                fee_data = fee_data[fee_data['Amount'] > 0]
                 
-                if non_zero_fees:
+                if not fee_data.empty:
+                    # Use matplotlib for pie chart
+                    fig, ax = plt.subplots(figsize=(8, 6))
+                    colors = ['#FF6B6B', '#4ECDC4', '#45B7D1']
+                    
                     wedges, texts, autotexts = ax.pie(
-                        non_zero_fees.values(),
-                        labels=non_zero_fees.keys(),
+                        fee_data['Amount'],
+                        labels=fee_data['Fee Type'],
                         autopct='%1.1f%%',
-                        colors=colors[:len(non_zero_fees)],
+                        colors=colors[:len(fee_data)],
                         startangle=90
                     )
                     
-                    # Enhance text
                     for text in texts:
-                        text.set_fontsize(12)
+                        text.set_fontsize(10)
                     for autotext in autotexts:
                         autotext.set_color('white')
                         autotext.set_fontsize(10)
                         autotext.set_weight('bold')
                     
-                    ax.set_title('Total Fee Distribution', fontsize=14, fontweight='bold')
+                    ax.set_title('Fee Distribution by Type', fontsize=12, fontweight='bold')
+                    plt.tight_layout()
                     st.pyplot(fig)
+                    plt.close()
                 else:
                     st.info("No fee data to display")
             
             with col2:
-                # Top sections by collection
-                section_summary = summary_df.groupby('Section').agg({
-                    'Opening Balance': 'sum',
-                    'Initial Fee': 'sum',
-                    'Term / Monthly Fee': 'sum'
-                })
-                section_summary['Total'] = section_summary.sum(axis=1)
-                section_summary = section_summary.sort_values('Total', ascending=False).head(10)
+                st.subheader("Top 10 Sections")
                 
-                if not section_summary.empty:
-                    st.subheader("Top 10 Sections by Collection")
+                # Section summary
+                if 'Section' in summary_df.columns:
+                    section_summary = summary_df.groupby('Section').agg({
+                        'Opening Balance': 'sum',
+                        'Initial Fee': 'sum',
+                        'Term / Monthly Fee': 'sum'
+                    })
+                    section_summary['Total'] = section_summary.sum(axis=1)
+                    section_summary = section_summary.sort_values('Total', ascending=True).tail(10)
                     
-                    # Horizontal bar chart
-                    fig2, ax2 = plt.subplots(figsize=(8, 6))
-                    section_summary['Total'].plot(kind='barh', ax=ax2, color='#0068C9')
-                    ax2.set_xlabel('Total Collection (₹)')
-                    ax2.set_title('Top Sections by Total Collection', fontsize=14, fontweight='bold')
-                    
-                    # Format x-axis labels
-                    ax2.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'₹{x:,.0f}'))
-                    
-                    plt.tight_layout()
-                    st.pyplot(fig2)
+                    if not section_summary.empty:
+                        # Create horizontal bar chart
+                        fig2, ax2 = plt.subplots(figsize=(8, 6))
+                        section_summary['Total'].plot(kind='barh', ax=ax2, color='#0068C9')
+                        ax2.set_xlabel('Total Collection (₹)')
+                        ax2.set_title('Top Sections by Collection', fontsize=12, fontweight='bold')
+                        
+                        # Format axis
+                        ax2.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'₹{x/1000:.0f}K'))
+                        
+                        plt.tight_layout()
+                        st.pyplot(fig2)
+                        plt.close()
+                    else:
+                        st.info("No section data available")
+                else:
+                    st.info("Section information not available")
 
 # Footer
 st.markdown("---")
